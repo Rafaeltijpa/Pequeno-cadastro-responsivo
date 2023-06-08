@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #27282d;
+text-align: center;
+}
+.formulario{
+    text-align: center;
+    padding: 50px;
+
+}
+.formulario img{
+    width: 100%;
+    max-width: 300px;
+    
+}
+.formulario input{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.formulario [type=submit]{
+width: 100px;
+background-color: #a54bdd;
+cursor: pointer;
+
+}
+
+.formulario textarea{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    
+}
